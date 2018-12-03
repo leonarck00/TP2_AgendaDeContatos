@@ -27,7 +27,7 @@ void TelaListagem::on_pushButtonListarContatos_clicked()
     for(iterLista = lista->begin();iterLista!=lista->end();iterLista++){
         agenda::Contato objeto = *iterLista;
         //teste
-        ui->tableWidgetListagem->setAlternatingRowColors(true);
+        //ui->tableWidgetListagem->setRowColors(true);
         //ui->tableWidgetListagem->resizeColumnsToContents();
         QString id = QString::number(objeto.getId());
         QString nome = objeto.getNome();
