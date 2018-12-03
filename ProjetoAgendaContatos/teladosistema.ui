@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>619</width>
-    <height>533</height>
+    <width>875</width>
+    <height>604</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButtonIncluir">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>370</y>
+      <x>710</x>
+      <y>50</y>
       <width>113</width>
       <height>32</height>
      </rect>
@@ -61,7 +61,7 @@
       <x>30</x>
       <y>90</y>
       <width>491</width>
-      <height>23</height>
+      <height>27</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -170,7 +170,7 @@
       <x>530</x>
       <y>90</y>
       <width>81</width>
-      <height>23</height>
+      <height>27</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -198,7 +198,7 @@
       <x>30</x>
       <y>20</y>
       <width>150</width>
-      <height>23</height>
+      <height>28</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -232,7 +232,7 @@
       <x>30</x>
       <y>130</y>
       <width>506</width>
-      <height>49</height>
+      <height>52</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -355,8 +355,8 @@
    <widget class="QPushButton" name="pushButtonListagem">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>370</y>
+      <x>710</x>
+      <y>100</y>
       <width>113</width>
       <height>32</height>
      </rect>
@@ -365,13 +365,43 @@
      <string>LISTAGEM</string>
     </property>
    </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <pointsize>21</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>619</width>
+     <width>875</width>
      <height>22</height>
     </rect>
    </property>

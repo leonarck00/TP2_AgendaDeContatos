@@ -112,6 +112,32 @@
     <string>Listar Contatos</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButtonExcluir">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2Alterar">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
